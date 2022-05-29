@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family: krub-r;
+	src: url("font\Krub-Regular.ttf");
+}
+@font-face
+{
+	font-family: krub-sb;
+	src: url("font\Krub-SemiBold.ttf")
+}
+
+.nav-link
+{
+    font-size: 14px;
+    font-family: krub-sb;
+   margin-right: 50px;
+}
+.carousel-caption
+{
+	margin-bottom: 15%;
+}
+.carousel-caption h5
+{
+	font-size: 18px;
+	font-family: krub-sb;
+
+}
+.carousel-caption p
+{
+	font-size: 36px;
+	font-family: krub-sb;
+	text-transform: capitalize;
+}
+.btn
+{
+	width: 120px;
+	height: 40px;
+	border-radius: 0;
+	font-size: 12px;
+	font-family: krub-r;
+	letter-spacing: 1px;
+	
+}
+.category 
+{
+	position: relative;
+}
+.category img
+{
+	width:100%;
+	height:200px;
+	
+}
+.opacity
+{
+	position: absolute;
+	top:75%;
+	left:11px;
+	right:0;
+	display: inline-block;
+	height: 50px;
+	width:94%;
+	color: #fff;
+	background-color: rgba(0,0,0,0.2);
+	text-align: center;
+	line-height: 50px;
+	opacity: 0;
+
+	
+}
+.category:hover .opacity
+{
+	opacity: 1;
+	transition: all 1s linear;
+}
+.banner-mid
+{
+	position: relative;
+	
+}
+.banner-mid img
+{
+	max-height: 650px;
+	width: 100%;
+}
+.text-mid-banner
+{
+	position: absolute;
+	top:30%;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.text-mid-banner h1
+{
+	font-family:krub-sb;
+	letter-spacing: 1px;
+}
+.text-mid-banner p{
+	font-family: krub-r ;
+	letter-spacing: 1px;
+}
+
+.btn:hover{
+	background-color: aquamarine;
+}
+
+.product-item-shop
+{
+	position: relative;
+	
+}
+.opacity-card
+{
+	position:absolute;
+	width:100%;
+	height: 30px;
+	opacity:0;
+	background-color: rgba(0,0,0,0.2);
+	top:327px;
+	bottom:0%;
+	left:12px;
+	right:0;
+	color: #fff;
+	
+}
+
+.product-item-shop:hover .opacity-card
+{
+	opacity: 1;
+	transition: all 1s linear;
+}
+
+
+.opacity-card i
+{
+	color: #fff;
+	margin-right: 10px;
+	margin-left: 15%;
+	line-height: 30px;
+}
+.line-cart-left
+{
+	position:absolute;
+	width: 1px;
+	height:30px;
+	background-color:rgba(255,255,255,0.9);
+	top:327px;
+	left:0;
+	right:0;
+	margin-left: 60%;
+	opacity:0;
+}
+.product-item-shop:hover .line-cart-left
+{
+	opacity: 1;
+	transition: all 1s linear;
+}
+.line-cart-right
+{
+	position:absolute;
+	width: 1px;
+	height:30px;
+	background-color:rgba(255,255,255,0.9);
+	top:327px;
+	left:0;
+	right:0;
+	margin-left: 75%;
+	opacity:0;
+}
+.product-item-shop:hover .line-cart-right
+{
+	opacity: 1;
+	transition: all 1s linear;
+}
+.shop-card
+{
+	position:absolute;
+	background-color: rgba(0,0,0,0.2);
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	opacity: 0;
+	color: #fff;
+	top:93.5%;
+	left: 11px;
+	right:0;
+	width:85.6%;
+
+}
+.product-item-shop:hover .shop-card
+{
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+@media (max-width:414px)
+{
+	.shop-card
+	{
+		
+		width:88%;
+		left: 11.9px;
+		top:88.8%;
+	}
+	.product-item-shop
+	{
+		margin-top:10px
+	}
+}
+@media(min-width:415px) and (max-width:540px)
+{
+	.shop-card
+	{	
+		
+		width:91.3%;
+		left: 11.9px;
+		top:92%;
+	}
+	.product-item-shop
+	{
+		margin-top:10px
+	}
+}
+@media (max-width:280px)
+{
+	.shop-card
+	{
+		
+		width:83.9%;
+		left: 11.9px;
+		top:82.5%;
+	}
+	.product-item-shop
+	{
+		margin-top:10px
+	}
+}
+@media(min-width:1024px) and (max-width:1200px)
+{
+	.shop-card
+	{	
+		
+		width:90%;
+		left: 11.9px;
+		top:92%;
+	}
+	
+}
+@media(min-width:1024px) and (max-width:1280px)
+{
+	.shop-card
+	{	
+		
+		width:92%;
+		left: 11.9px;
+		top:92.5%;
+	}
+	
+}
+@media(min-width:768px) and (max-width:820px)
+{
+	.shop-card
+	{	
+		
+		width:86%;
+		left: 11.9px;
+		top:89%;
+	}
+	
+}
+.footer
+{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	padding-left: 10%;
+	
+}
+.footer h3
+{
+	color: #fff;
+	font-size: 24px;
+	font-family: krub-sb;
+}
+.footer h5
+{
+	color: #fff;
+	font-size: 14px;
+	font-family: krub-r;
+}
+.footer h5:hover{
+	color: aquamarine;
+}
+
